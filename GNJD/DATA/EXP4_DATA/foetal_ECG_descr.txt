@@ -1,0 +1,34 @@
+
+Description:
+	
+	Cutaneous potential recordings of a pregnant woman (8 channels, 10 seconds). The sampling frequency was 250 Hz.
+
+
+References:
+	
+	
+	D. Callaerts,
+	"Signal Separation Methods based on Singular Value Decomposition 
+	and their Application to the Real-Time Extraction of the
+	Fetal Electrocardiogram from Cutaneous Recordings",
+	Ph.D. Thesis, K.U.Leuven - E.E. Dept., Dec. 1989.
+	
+	
+	L. De Lathauwer, B. De Moor, J. Vandewalle, ``Fetal
+	Electrocardiogram Extraction by Blind Source Subspace Separation'', 
+	IEEE Trans. Biomedical Engineering, Vol. 47, No. 5, May 2000, 
+	Special Topic Section on Advances in Statistical Signal Processing 
+	for Biomedicine, pp. 567-572.	
+
+
+
+
+Format:
+	.dat file containing (2500 x 9) matrix
+
+Columns:
+	
+	Column 1: time steps
+	
+	Column 2-6: abdominal recordings
+	Column 7-9: thoracic recordings
